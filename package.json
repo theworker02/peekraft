@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/peekraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Peek HTML/Markdown raft fragments safely for docs pipelines.",
+  "bin": {
+    "peekraft": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/peekraft.git"
+  },
+  "homepage": "https://theworker02.github.io/peekraft/",
+  "keywords": [
+    "peek",
+    "raft",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
